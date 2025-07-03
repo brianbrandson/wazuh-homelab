@@ -10,7 +10,8 @@ Hands‑on SIEM environment built from scratch to practice blue‑team workflows
 
 | Component | Tech | Highlights |
 |-----------|------|------------|
-| **SIEM** | Wazuh 4.12 | Manager, Indexer, Dashboard on Ubuntu 24.04 (VirtualBox) |
+| **VirtualBox VM** | Ubuntu 24.04 / 4 vCPU / 8 GB RAM / 50 GB disk | |
+| **SIEM** | Wazuh 4.12 | Manager, Indexer, Dashboard |
 | **Endpoints** | Win 11, Ubuntu desktop, Win 10 (remote) | Split‑tunnel WireGuard onboarding |
 | **Appliances** | Synology NAS, TP‑Link Omada | Syslog ingestion, custom decoders |
 | **ChatOps** | Slack webhook *(coming soon)* | Real‑time critical alerts |
@@ -40,7 +41,7 @@ maintenance/         -> backups & retention
 
 | MITRE ATT&CK test | Alert in Wazuh | ChatOps |
 |-------------------|----------------|---------|
-| _TODO_ | _TODO_ | _TODO_ |
+| T1110 | ![](docs/screenshots/t1110_wazuh.png) | *Coming soon* |
 
 ## 🛡️  Security notice
 
