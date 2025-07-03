@@ -17,26 +17,24 @@ Hands‑on SIEM environment built from scratch to practice blue‑team workflows
 
 ## 🚀  Quick start
 
-```bash
+```
 # Clone
 git clone https://github.com/brianbrandson/wazuh-homelab.git
 cd wazuh-homelab
-
-# Provision manager (scripted)
-sudo ./scripts/manager-setup.sh
+sudo ./scripts/manager-setup.sh   # installs Wazuh manager in one step
 ```
 
 Full instructions live in `docs/`.
 
 ## 🗺️  Repo structure
-\`\`\`
+```
 architecture/        -> diagrams
 scripts/             -> install & helper scripts
 config-templates/    -> sample configs (no secrets)
 decoders/ & rules/   -> custom XML (Omada, Synology)
 docs/                -> deep‑dive guides
 maintenance/         -> backups & retention
-\`\`\`
+```
 
 ## 📸  Screenshots
 
