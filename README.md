@@ -10,10 +10,10 @@ Hands‑on SIEM environment built from scratch to practice blue‑team workflows
 
 | Component            | Devices / Software                       | Highlights                                  |
 |----------------------|------------------------------------------|---------------------------------------------|
-| **SIEM Core**        | Wazuh 4.12 on Ubuntu 24.04 (VirtualBox)  | Manager + Indexer + Dashboard               |
-| **Endpoints**        | Windows 11 laptop, Ubuntu desktop, Win 10 (remote) | Split-tunnel WireGuard onboarding           |
+| **SIEM Core**        | Wazuh 4.12 on Ubuntu 24.04 (VirtualBox)  | Manager + Indexer + Dashboard<br> -Custom decoder and rule set <br> -**Noise-tuning rules applied**|
+| **Endpoints**        | Windows 11 laptop, Ubuntu desktop, Win 10 (remote) | Split-tunnel WireGuard onboarding |
 | **Storage Appliance**| Synology NAS                             | Syslog ingestion, custom decoder            |
-| **Firewall / Router**| TP-Link Omada ER605                      | Firewall events via syslog, custom rule (T1110) |
+| **Firewall / Router**| TP-Link Omada ER605                      | Firewall events via syslog					|
 | **SDN Controller**   | Omada Controller                         | Login-failure decoder & rule (T1078)        |
 | **ChatOps**          | Slack webhook *(coming soon)*            | Real-time critical alerts                   |
 
