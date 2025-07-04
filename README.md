@@ -43,8 +43,8 @@ maintenance/         -> backups & retention
 
 | MITRE ATT&CK test | Alert in Wazuh | ChatOps |
 |-------------------|----------------|---------|
-| T1110 | ![](docs/screenshots/t1110_wazuh.png) | *Coming soon* |
 | T1078 | ![](docs/screenshots/t1078_wazuh.png) | ![](docs/screenshots/t1078_slack.png) |
+| T1484 | ![](docs/screenshots/t1484_wazuh.png) | ![](docs/screenshots/t1484_slack.png) |
 
 ## 🛡️  Security notice
 
