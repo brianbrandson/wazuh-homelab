@@ -1,0 +1,7 @@
+  <!-- Slack ChatOps - template -->
+  <integration>
+    <name>slack</name>
+    <hook_url>SLACK_WEBHOOK_URL</hook_url>
+    <level>10</level>
+    <alert_format>json</alert_format>
+  </integration>

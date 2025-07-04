@@ -15,7 +15,7 @@ Hands‑on SIEM environment built from scratch to practice blue‑team workflows
 | **Storage Appliance**| Synology NAS                             | Syslog ingestion, custom decoder            |
 | **Firewall / Router**| TP-Link Omada ER605                      | Firewall events via syslog					|
 | **SDN Controller**   | Omada Controller                         | Login-failure decoder & rule (T1078)        |
-| **ChatOps**          | Slack webhook *(coming soon)*            | Real-time critical alerts                   |
+| **ChatOps**          | Slack (#sec-alerts)			          | Critical alerts via webhook                 |
 
 
 ## 🚀  Quick start
@@ -44,7 +44,7 @@ maintenance/         -> backups & retention
 | MITRE ATT&CK test | Alert in Wazuh | ChatOps |
 |-------------------|----------------|---------|
 | T1110 | ![](docs/screenshots/t1110_wazuh.png) | *Coming soon* |
-| T1078 | ![](docs/screenshots/t1078_wazuh.png) | *Coming soon* |
+| T1078 | ![](docs/screenshots/t1078_wazuh.png) | ![](docs/screenshots/t1078_slack.png) |
 
 ## 🛡️  Security notice
 
