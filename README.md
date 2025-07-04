@@ -53,3 +53,8 @@ All keys, passwords and private information are excluded via \`.gitignore\`. Rep
 ## 📜  License
 
 This project is released under the [MIT License](LICENSE).
+
+### Credits
+
+- **Synology DSM decoder & rules** – sourced from [st0rm-cr0w/wazuh-synology-dsm-nas-decoder-and-rules](https://github.com/st0rm-cr0w/wazuh-synology-dsm-nas-decoder-and-rules).
+
