@@ -1,0 +1,7 @@
+<group name="omada,tp-link,authentication_failed,">
+  <rule id="100200" level="10">
+    <decoded_as>omada-loginfail</decoded_as>
+    <description>TP-Link Omada login failure — user: $(username)</description>
+    <mitre><id>T1078</id><id>T1110</id></mitre>
+  </rule>
+</group>

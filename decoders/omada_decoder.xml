@@ -1,0 +1,5 @@
+<decoder name="omada-loginfail">
+  <prematch>failed to log in</prematch>
+  <regex>operation":"(\.+)\s</regex>
+  <order>username</order>
+</decoder>
