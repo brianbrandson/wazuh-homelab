@@ -1,0 +1,27 @@
+<!-- Local rules -->
+
+<!-- Modify it at your will. -->
+<!-- Copyright (C) 2015, Wazuh Inc. -->
+
+<group name="local_override,">
+
+  <!-- 999000-range: your custom overrides -->
+  <rule id="999010" level="0">
+    <!-- Suppress unknown-severity CVEs -->
+    <if_sid>23508</if_sid>
+    <description>VD noise: CVE awaiting analysis (suppressed)</description>
+  </rule>
+
+  <rule id="999011" level="1">
+    <!-- Downgrade 'Solved' notifications -->
+    <if_sid>23502</if_sid>
+    <description>VD info: vulnerability solved</description>
+  </rule>
+
+  <rule id="999012" level="5">
+    <!-- Medium CVEs: keep, but not in High/Critical dashboards -->
+    <if_sid>23504</if_sid>
+    <description>VD medium-severity vulnerability</description>
+  </rule>
+
+</group>
