@@ -18,6 +18,13 @@ Documenting every change made to **`local_rules.xml`** or **`agent.conf`** that 
 4. **Validate** – `wazuh-logtest -t /path/to/local_rules.xml` then `systemctl restart wazuh-manager`; confirmed no XML errors.  
 5. **Monitor** – Will re‑measure alert volume after 24 h to ensure signal preserved.
 
+## Before and after
+
+<p align="center">
+  <img src="screenshots/noise_before.png" width="320">
+  <img src="screenshots/noise_after.png"  width="320">
+</p>
+
 ---
 
 > **Next review checkpoint:** after major distribution upgrades or when new noisy rules appear.
